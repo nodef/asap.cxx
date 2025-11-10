@@ -1,0 +1,15 @@
+{
+  "name": "asap.cxx",
+  "version": "1.2023.4",
+  "description": "A C++ header-only library for creating, displaying, iterating and manipulating dates; Leonardo Guilherme de Freitas (2017).",
+  "keywords": ["c", "library", "date", "time", "header-only"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/asap.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/asap.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/asap.cxx#readme"
+}

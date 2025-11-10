@@ -1,8 +1,20 @@
 # The ASAP date/time library for beautiful C++ code
 
-ASAP is a small, header-only date-time library for C++11 and beyond. It is heavily inspired by my great time using [momentjs](momentjs.com) to parse and display dates. ASAP has a lot of syntatic sugar to make your code look pretty both on the inside and outside :)
+ASAP is a small, header-only date-time library for C++11 and beyond - by [Leonardo Guilherme de Freitas](https://github.com/mobius3). It is heavily inspired by my great time using [momentjs](momentjs.com) to parse and display dates. ASAP has a lot of syntatic sugar to make your code look pretty both on the inside and outside :)
 
 All ASAP examples available [online at _repl.it_](https://repl.it/@mobius3/asapexamples). (`main()` starts at line `533`)
+
+## Installation
+
+Run:
+```bash
+$ npm i asap.cxx
+```
+
+And then include `asap.h` as follows:
+```cxx
+#include "node_modules/asap.cxx/include/asap/asap.h"
+```
 
 ## Features
 
@@ -13,7 +25,7 @@ All ASAP examples available [online at _repl.it_](https://repl.it/@mobius3/asape
 - Literals (e.g, `auto then = asap::now() + 1_year`) for seconds, minutes, hours, days, weeks, months and years
 - Broken down duration printing (e.g, `asap::days(10)` prints `"1 week, 3 days"`)
 - Range-based iteration for periods:
-```
+```cxx
    for (auto x: asap::now().until(asap::tomorrow()).every(1_hour)) {
         std::cout << x << std::endl;
    }
@@ -39,3 +51,10 @@ You can either:
 ## License
 
 ASAP is MIT licensed.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/asap.cxx)
